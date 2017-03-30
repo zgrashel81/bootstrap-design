@@ -1,5 +1,6 @@
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,38 +16,158 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style>
-      /* A little styling to improve the design */
+        /* A little styling to improve the design */
 
-      .img-rounded {
-        border-radius: 16px;
-      }
+        .img-rounded {
+            border-radius: 16px;
+        }
 
-      ul {
-        margin: 0;
-      }
+        ul {
+            margin: 0;
+        }
 
-      .pagination {
-        margin: 0;
-      }
+        .pagination {
+            margin: 0;
+        }
 
-      table {
-        font-size: inherit;
-      }
+        table {
+            font-size: inherit;
+        }
 
-      .login-well {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-      .login-well div {
-        margin: 10px 20px;
-      }
+        .login-well {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .login-well div {
+            margin: 10px 20px;
+        }
     </style>
-  </head>
-  <body>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-  </body>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                <a class="navbar-brand" href="#">TIY Sports</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Teams</a></li>
+                    <li><a href="#">Players</a></li>
+                    <li><a href="#">Games</a></li>
+                    <li class="dropdown"></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+
+                    <div class="input-group">
+
+                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                        <span class="input-group-addon"> <span class="glyphicon glyphicon-search" aria-hidden="true"></span></span>
+                    </div>
+
+                </form>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <div class="container">
+
+
+        <div class="jumbotron">
+            <div class="media">
+                <div class="media-body">
+                    <h4 class="media-heading">tiy</h4>
+                    <p>heart</p>
+                </div>
+                <div class="media-right">
+                    <a href="#">
+                        <img src="./assets/images/sports.jpg" class="img-circle" alt="..." height="140" width="140">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="./assets/images/football.jpg" alt="...">
+                    <div class="text-center">
+                        <h3>Football</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="./assets/images/baseball.jpg" alt="...">
+                    <div class="text-center">
+                        <h3>Baseball</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="./assets/images/basketball.jpg" alt="...">
+                    <div class="text-center">
+                        <h3>Basketball</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="./assets/images/quidditch.jpg" alt="...">
+                    <div class="text-center">
+                        <h3>Quidditch</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-warning alert-dismissible" role="alert">
+            <strong></strong> We've added some brand new features in version 2.0! <a href="#">  Learn More</a>
+        </div>
+
+        <div class="well"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+
+        </div>
+
+        <div class="panel panel-primary">
+            <!-- Default panel contents -->
+            <div class="panel-heading">Team</div>
+            <div class="panel-body">
+                <p>...</p>
+            </div>
+
+            <!-- Table -->
+            <table class="table">
+                ...
+            </table>
+        </div>
+
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+</body>
+
 </html>
